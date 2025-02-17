@@ -9,8 +9,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{B6F2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Intergration", "Intergration", "{5C63B553-395A-42F8-A3D2-AB445A69755B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9D12D464-BEDD-45B2-97CD-228A60D5982F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunincasaDevelopment.Services.RecipeApi", "FunincasaDevelopment.Services.RecipeApi\FunincasaDevelopment.Services.RecipeApi.csproj", "{7B927742-D2B2-447B-BD02-87B7CE50C8EB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B927742-D2B2-447B-BD02-87B7CE50C8EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B927742-D2B2-447B-BD02-87B7CE50C8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B927742-D2B2-447B-BD02-87B7CE50C8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B927742-D2B2-447B-BD02-87B7CE50C8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B927742-D2B2-447B-BD02-87B7CE50C8EB} = {9D12D464-BEDD-45B2-97CD-228A60D5982F}
 	EndGlobalSection
 EndGlobal
